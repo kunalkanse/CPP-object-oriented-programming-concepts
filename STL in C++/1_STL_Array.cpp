@@ -33,6 +33,10 @@ int main()
 
     //accessing using []
     cout<<"arr2[2] : "<<arr2[2]<<endl;
+    
+    //when we use at() method and we give index out of bound then 
+    // it throws exception but in case of [] program directly gets terminated
+    // so at() is more safe than []
 
     //front() method - returns first element
     cout<<"arr2.front() : "<<arr2.front()<<endl;
