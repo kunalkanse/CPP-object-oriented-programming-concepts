@@ -1,4 +1,5 @@
-#include<stdio.h>
+#include<iostream>
+using namespace std;
 
 //function pointer stores the address of the function
 
@@ -31,10 +32,10 @@ int main()
     int (*fp)(int,int,int); //function pointer prototype
     
     fp = maximum;           //assigning address of function to pointer
-    printf("maximum : %d",(fp)(a,b,c));    
+    cout<<"maximum : "<<(fp)(a,b,c)<<endl;    // calling function
 
     fp = minimum;           //assigning address of function to pointer
-    printf("\nminimum : %d",(fp)(a,b,c));  
+    cout<<"minimum : "<<(fp)(a,b,c)<<endl;      // calling function
 
     return 0;
 }
