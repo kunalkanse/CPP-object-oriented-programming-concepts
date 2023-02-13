@@ -31,7 +31,7 @@ int main()
 
     int (*fp)(int,int,int); //function pointer prototype
     
-    fp = maximum;           //assigning address of function to pointer
+    fp = maximum;           //assigning address of function to pointer 
     cout<<"maximum : "<<(fp)(a,b,c)<<endl;    // calling function
 
     fp = minimum;           //assigning address of function to pointer
