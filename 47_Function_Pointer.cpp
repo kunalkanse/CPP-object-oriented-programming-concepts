@@ -12,7 +12,7 @@ int maximum(int a, int b,int c)
         return b;
     else 
         return c;
-}
+} 
 
 int minimum(int a, int b, int c)
 {
