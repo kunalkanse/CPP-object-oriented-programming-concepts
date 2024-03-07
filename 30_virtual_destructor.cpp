@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-// At the time of deallocation of memory only destructor of the Base class gets called,
+// In Upcasting, At the time of deallocation of memory only destructor of the Base class gets called,
 // to avoid this problem if we make base class destructor as virtual then,
 // destrucot of derived class also gets called
 
