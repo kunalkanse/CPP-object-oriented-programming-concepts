@@ -10,5 +10,7 @@ This repository contains program for understanding the concepts of C++ Programmi
   6. polymorphism
   7. Constant in c++
   8. Static in C++
-  9. Exception Handling
-  10. Generic Programming
+  9. Operator in C++
+  10. Virtual & Pure Virtual
+  11. Exception Handling
+  12. Generic Programming
